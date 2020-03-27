@@ -1,0 +1,232 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+          background-color: aqua;
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 25%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 75%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: #6699ff;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      footer{
+          text-align: center;
+      }
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <nav class="topnav" id="navbar">
+            <header></header>
+
+            <a href="#Sit_on_Motorcycle" class="nav-link">
+              Stock Up on Supplies
+            </a>
+            <a href="#Lift_Kickstand" class="nav-link">
+              Gear Up
+            </a>
+            <a href="#Turn_on_Ignition" class="nav-link">
+              Binge Watch
+            </a>
+            <a href="#Press_Ignition_Button" class="nav-link">
+             Work from Home
+            </a>
+            <a href="#Drive_Motorcycle" class="nav-link">
+              Excercise
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="rightcolumn">
+
+        <div class="header">
+          <h1>How to Survive a Quarantine</h1>
+        </div>
+        <main id="main-doc">
+
+          <div class="card">
+            <section class="main-section" id="Sit_on_Motorcycle">
+              <header>Stock Up on Supplies</header>
+              <code>IE "Toilet Paper"</code>
+           
+              <ol>
+                <li>Stock Up On Food</li>
+                <li>Wash Your Hands</li>
+                <li>Social Distance</li>
+               
+                <li>Disinifect commonly touched objects</li>
+                <li>Stay Inside as much as possible</li>
+              </ol>
+              <p>When you have to go to the store be sure to clean your hands before you go in and aftewards.</p>
+              <p>
+                If you order food have it delivered and empty the bags to a new plate or serving tray. Be sure to wash your hands and throw away 
+                the bags. If you save the food store them in tupperware containers and not the boxes they were delivered in.
+              </p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section" id="Lift_Kickstand">
+              <header>Gear Up</header>
+              <code>Be Prepared for the Zombie Apocalypse</code>
+              <ol>
+               <li>Buy Guns if you don't already have them.</li>   
+               <li>Buy camping gear.</li>
+               <li>Learn how to camp.</li>
+               <li>Buy a baseball bat.</li>
+               <li>Add nails to the baseball bat</li>
+              </ol>
+              <p>Most people don't believe in Zombies but neither did Will Smith or Rick Grimes until it all happened.</p>
+              <p>In case if this is end of the world as we know it might be a good time to learn how to be survive.</p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section"  id="Turn_on_Ignition">
+              <header>Binge Watch</header>
+              <code>Subscribe to different streaming services.</code>
+              <ul>
+                  <li>Netflix</li>
+                  <li>Hulu</li>
+                  <li>Disney Plus</li>
+                  <li>Amazon Video</li>
+                  <li>Youtube TV</li>
+              </ul>
+              <p>
+                  Almost everyone now adays watches most of their TV Shows and Movies via some sort of a streaming service.
+                  Each service has original content that other services don't have. As such it can benefit you if you subscribe to each 
+                  one and is still cheaper than cable.
+              </p>
+              <p>
+                A good set up has a monitor or two, a printer, a desk, a chair, paper and pens.
+              </p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section"  id="Press_Ignition_Button">
+              <header>Work from Home</header>
+              <code>Set Up Your Workspace.</code>
+              <p>Many companies give their employees the option to work from home. With COVID19 going on
+                  many people are required to stay home. Many companies are closed all together but many companies are still able to do their
+                  work from home. To be sufficient it is important to have a seperate space to be able to focus and to set up the required components.
+              </p>
+              <p></p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section" id="Drive_Motorcycle">
+              <header>Excercise</header>
+              <code>30 Minutes a Day</code>
+              <p>While you're stuck in the house don't forget to be active. Being home is a great time to be prdoctive
+                  and that includes physical activity.
+              </p>
+              <p>Some simple excercises that you could try would be push-ups, 
+                  sit-ups, yoga, and stretches.
+              </p>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+    <footer>Alan J Fountain Productions</footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
